@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: uviana-a <uviana-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: uviana-a <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/09 13:13:19 by uviana-a          #+#    #+#             */
-/*   Updated: 2023/03/12 22:06:27 by uviana-a         ###   ########.fr       */
+/*   Created: 2023/03/09 15:55:44 by uviana-a          #+#    #+#             */
+/*   Updated: 2023/03/09 16:39:26 by uviana-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+void ft_print_reverse_alphabet();
 
-void ft_putchar(char c)
-{
-	write(1, &c, 1);
+void main(){
+    ft_print_reverse_alphabet();
 }
