@@ -1,26 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_helloworld.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: uviana-a <uviana-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: uviana-a <gustavo>                         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/09 13:13:19 by uviana-a          #+#    #+#             */
-/*   Updated: 2023/03/12 22:06:27 by uviana-a         ###   ########.fr       */
+/*   Created: 2024/07/25 16:42:00 by gustavo           #+#    #+#             */
+/*   Updated: 2024/07/25 16:42:00 by gustavo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <unistd.h>
+#include <stdio.h>
 
-#ifdef _WIN32
-#include <io.h>
-#define access _access
-
-#else
-#include <unistd.h>
-#endif
-
-void ft_putchar(char c)
+void verifyPairOdd()
 {
-	write(1, &c, 1);
 }

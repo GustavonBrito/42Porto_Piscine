@@ -10,9 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#ifdef _WIN32
+#include <io.h>
+#define access _access
 
-void	ft_print_alphabet(void)
+#else
+#include <unistd.h>
+#endif
+
+void ft_print_alphabet(void)
 {
 	int	c;
 

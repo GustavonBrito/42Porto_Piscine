@@ -10,11 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifdef _WIN32
+#include <io.h>
+#define access _access
+
+#else
 #include <unistd.h>
+#endif
 
-void	ft_print_alphabet(void);
+void ft_print_alphabet(void);
 
-int	main(void)
+int main(void)
 
 {
 	ft_print_alphabet();
